@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الحساب الشخصي</title>
+
+    <link rel="stylesheet" href="./css/profile.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Baloo+Bhaijaan+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="top-nav" class="container">
+          <img class="logo-img" src="./profile-images/campus_logo.svg" alt="logo" />
+          <div class="inner_nav">
+            <ul>
+              <li class="active-link">
+                <a href="./home.html" class="s-active">الرئيسيه</a>
+              </li>
+              <li><a href="#">الجلسات</a></li>
+              <li class="p-active">
+                <a href="./profile.html"
+                  ><img
+                    src="./profile-images/hugeicons_mentoring.svg"
+                    alt="hugeicons_mentoring"
+                  />انضم كموجهه</a
+                >
+              </li>
+            </ul>
+          </div>
+         
+          <div class="my-profile">
+            <img src="./profile-images/Frame 1171277964.svg" alt="" />
+            <div class="mentor_titele"
+              >ايمان عبدالله<img
+                src="./profile-images/Vector (2).svg"
+                alt="vector"
+            /></div>
+          </div>
+        </div>
+        <!-- <div id="bottom-nav" class="container">
+          <ul>
+            <li>
+              <a href="./profile.html">معلومات شخصيه</a>
+            </li>
+            <li><a href="#">اداره جلسات</a></li>
+          </ul>
+        </div> -->
+      </nav>
+    </header>
+
+    <main>
+      <section id="profile-hero" class="container">
+        <div class="mentor-content">
+          
+          <figure class="bg-img">
+            <img src="profile-images/background.png" alt="background-image" />
+            
+          </figure>
+          <div class="change_image">
+           <button  id="change_photo"><img src="./profile-images/Frame 1171278678.svg" alt=""></button> 
+          </div>
+          <div class="profile_edit_icon">
+            <button id="profile_edit_btn"><img src=".//profile-images/edit-2.svg" alt=""></button>
+          </div>
+          <div class="mentor-photo">
+            <img style="border-radius: 50%;" src="profile-images/mentor.png" alt="mentor-photo" />
+          </div>
+          <div class="mentor-info">
+            <div class="person-info">
+              <h1 class="user-name"></h1>
+              <h3 class="speciality"></h3>
+              <ul dir="ltr" class="list-contact">
+                <li>
+                  <span class="email"></span>
+                  <!-- <img src="profile-images/sms-gmail.png" alt="" /> -->
+                </li>
+                <li id="info-address">
+                  <span class="country"></span
+                  ><img src="profile-images/location.png" alt="" />
+                </li>
+              </ul>
+            </div>
+            <div class="contact">
+              <div class="social-contact" dir="ltr">
+                <a href="#">
+                  <img src="profile-images/Facebook.png" alt=""
+                /></a>
+                <a href="#"> <img src="profile-images/gmail.png" alt="" /></a>
+                <a href="#"><img src="profile-images/behance.png" alt="" /></a>
+                <a href="#">
+                  <img src="profile-images/linkedin.png" alt=""
+                /></a>
+              </div>
+              <div class="btn-contact">
+                <button id="btn-share">
+                  <img src="profile-images/material-symbols_share.svg" alt="" />المشاركه
+                </button>
+                <button id="btn-message">
+                  <img src="profile-images/messages-3.svg" alt="" />الرسائل
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="profile-skills container">
+        <aside class="right-section">
+          <div class="my-data">
+            <div class="my-data-title">
+              <span>نبذة عني:</span>
+
+              <button><img src="./profile-images/edit-2.svg" alt="edit-icon" /></button> 
+
+            </div>
+            <p class="about-me my-data-content ">
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من   
+              <span class="aboutMe_more">هذا النص الإضافي سيظهر عند النقر كينىمنششرمىنقاثنرىشطنقىهخىشل</span>
+              <span><button class="aboutMe_more_btn">...المزيد</button></span>
+            </p>
+            <!-- <form class="edit-about">
+              <textarea name="about-update" id="about-update"></textarea>
+              <button class="update-about">تعديل</button>
+            </form> -->
+          </div>
+<div class="edit_profile edit_profile_overlay" id="edit_profile">
+  <div class="edit_profile_model">
+    <div class="edit_profile_content">
+      <div class="edit_profile-upcontaner">
+        <h3>تعديل الملف الشخصي</h3>
+       <button id="edit_profileOut_btn"><img src="./profile-images/arrow-small-left.svg" alt=""></button> 
+  
+      </div>
+      <div class="form-group">
+        <label class="form-label">الإسم بالكامل</label>
+        <input type="text" class="fullname-input">
+    </div>
+    <div class="form-group">
+      <label class="form-label">العنوان</label>
+      <input type="text" class="fullname-input">
+  </div>
+  <div class="form-group">
+    <label class="form-label"> البلد , المدينه</label>
+    <input type="text" class="fullname-input">
+  </div>
+  <div class="form-group">
+    <label class="form-label"> اللينك</label>
+    <input type="text" class="fullname-input">
+  </div>
+    </div>
+   
+</div>
+
+</div>
+          <div class="my-data experience">
+            <div class="my-data-title">
+              <span>الخبره :</span>
+              <div>
+               <button id="experience_plus_btn"><img src="./profile-images/uil_plus.svg" alt="upload-icon" /></button> 
+               <button id="experience_edit_btn"><img src="./profile-images/edit-2.svg" alt="edit-icon" /></button> 
+
+              </div>
+            </div>
+            <div class="education-desc" dir="ltr">
+              <div class="desc">
+                <h3>UI\UX designer</h3>
+                <h4>Orange Digital Center Egypt . Internship</h4>
+                <p>Aug 2024 - Sep 2024 . 2mos</p>
+                <p>Giza , Al jizah , Egypt .Hybrid</p>
+              </div>
+              <div class="desc-img">
+                <img src="./profile-images/orang.png" alt="" />
+              </div>
+            </div>
+            <div class="education-desc" dir="ltr">
+              <div class="desc">
+                <h3>UI\UX designer</h3>
+                <h4>H-Technology</h4>
+                <p>Aug 2024 - Sep 2024 . 2mos</p>
+                <p>Giza , Al jizah , Egypt .Hybrid</p>
+              </div>
+              <div class="desc-img2">
+                <img src="./profile-images/pana.svg" alt="" />
+              </div>
+            </div>
+            <div class="desc_heddens" id="desc_heddens">
+              <div class="education-desc" dir="ltr">
+                <div class="desc">
+                  <h3>UI\UX designer</h3>
+                  <h4>H-Technology</h4>
+                  <p>Aug 2024 - Sep 2024 . 2mos</p>
+                  <p>Giza , Al jizah , Egypt .Hybrid</p>
+                </div>
+                <div class="desc-img">
+                  <img src="./profile-images/pana.png" alt="" />
+                </div>
+              </div>
+              <div class="education-desc" dir="ltr">
+                <div class="desc">
+                  <h3>UI\UX designer</h3>
+                  <h4>H-Technology</h4>
+                  <p>Aug 2024 - Sep 2024 . 2mos</p>
+                  <p>Giza , Al jizah , Egypt .Hybrid</p>
+                </div>
+                <div class="desc-img">
+                  <img src="./profile-images/pana.png" alt="" />
+                </div>
+              </div>
+            </div>
+           
+            <button class="show-more" id="more_btn">عرض المزيد +3</button>
+          </div>
+
+        <!--  تعديل الخبره-->
+        <div class="edit_experience edit_profile_overlay" id="edit_experience">
+          <div class="edit_profile_model edit_education_model">
+           
+            <div class="edit_education_content">
+              <div class="edit_profile-upcontaner">
+                <h3> الخبره </h3>
+               <button id="edit_experienceOut_btn"><img src="./profile-images/arrow-small-left.svg" alt=""></button>
+              </div>
+              
+              <div class="edit_experience_desc" dir="ltr">
+                <div class="edit_experience_icon_con">
+                  <button>  <img src="./profile-images/bars-4.svg" alt=""></button> 
+            <button id="experience_edit_btn2"><img src=".//profile-images/edit-2.svg" alt=""></button>
+                  </div>
+                <div class="desc-contaner">
+                  <div class="desc">
+                    <h3>UI\UX designer</h3>
+                    <h4>Orange Digital Center Egypt . Internship</h4>
+                    <!-- <p>Aug 2024 - Sep 2024 . 2mos</p>
+                    <p>Giza , Al jizah , Egypt .Hybrid</p> -->
+                  </div>
+                  <div class="desc-img">
+                    <img src="./profile-images/experince-image.svg" alt="" />
+                  </div>
+                </div>
+                
+              </div>
+              <div class="edit_experience_desc" dir="ltr">
+                <div class="edit_experience_icon_con">
+                  <button>  <img src="./profile-images/bars-4.svg" alt=""></button> 
+            <button id="profile_edit_btn"><img src=".//profile-images/edit-2.svg" alt=""></button>
+                  </div>
+                <div class="desc-contaner">
+                  <div class="desc">
+                    <h3>UI\UX designer</h3>
+                    <h4>Orange Digital Center Egypt . Internship</h4>
+                    <!-- <p>Aug 2024 - Sep 2024 . 2mos</p>
+                    <p>Giza , Al jizah , Egypt .Hybrid</p> -->
+                  </div>
+                  <div class="desc-img">
+                    <img src="./profile-images/experince-image.svg" alt="" />
+
+                  </div>
+                </div>
+              </div>
+              <div class="edit_experience_desc" dir="ltr">
+                <div class="edit_experience_icon_con">
+                  <button>  <img src="./profile-images/bars-4.svg" alt=""></button> 
+            <button id="profile_edit_btn"><img src=".//profile-images/edit-2.svg" alt=""></button>
+                  </div>
+                <div class="desc-contaner">
+                  <div class="desc">
+                    <h3>UI\UX designer</h3>
+                    <h4>Orange Digital Center Egypt . Internship</h4>
+                    <!-- <p>Aug 2024 - Sep 2024 . 2mos</p>
+                    <p>Giza , Al jizah , Egypt .Hybrid</p> -->
+                  </div>
+                  <div class="desc-img">
+                    <img src="./profile-images/experince-image.svg" alt="" />
+
+                  </div>
+                </div>
+              </div>
+              <!-- </div> -->
+  
+            </div>
+        </div>
+      </div>
+
+      <div class="edit_experience2 edit_profile_overlay" id="edit_experience2">
+        <div class="edit_profile_model ">
+          <div class="edit_experince_content">
+            <div class="edit_profile-upcontaner">
+              <h3> تعديل الخبره </h3>
+             <button id="edit_experienceOut_btn2"><img src="./profile-images/x-mark.svg" alt=""></button>
+            </div>
+            <div class="form-group_education">
+              <label class="form-label_experience education_label">المسمى الوظيفي</label>
+              <div class="edit_educationSelectOut_btn-con">
+                <button class=" edit_educationOut_btn" id="edit_educationSelectOut_btn"><img  src="./profile-images/x-mark.svg" alt=""></button>
+  
+              </div>
+  
+              <input type="text" class="fullname-input" placeholder="Senior Product Designer">
+
+          </div>
+          <div class="form-group_education">
+            <label class="form-label_experience education_label">نوع الدوام</label>
+            <div class="select-wrapper">
+              <select name="specialization" required>
+                <option value=""> Full-time</option>
+                              <option value="ui-designer">Part-time</option>
+                              <option value="Graphic-Design">Self-employed</option>
+                              <option value="front-end">Freelance</option>
+                              <option value="Back-End">Contract</option>
+                              <option value="AI"> Internship</option>
+                               <option value="Digital-Marketing"> Appernticeship</option>
+                      </select>
+              <img src="./profile-images/arrow-down.svg" alt="" class="select-icon">
+            </div>
+
+           
+
+        </div>
+       
+          
+      <div class="form-group_education">
+        <label class="form-label_experience education_label">اسم الشركة او المؤسسة</label>
+        <input type="text" class="fullname-input" placeholder="Aaseya">
+    </div>
+    <div class="form-group_education">
+      <label class="form-label_experience education_label">  الموقع الجغرافي</label>
+      <div class="select-wrapper">
+        <select name="specialization" required>
+          <option value="">Riyadh, Saudi Ararbia </option>
+                        <option value="ui-designer">Minia, Egypt </option>
+                        
+                </select>
+        <img src="./profile-images/arrow-down.svg" alt="" class="select-icon">
+      </div>
+
+     
+
+  </div>
+  <div class="form-group_education">
+    <label class="form-label_experience education_label">  طبيعة العمل </label>
+    <div class="select-wrapper">
+      <select name="specialization" required>
+        <option value="">On-site </option>
+                      <option value="ui-designer">Remote</option>
+                      <option value="Graphic-Design"> Hybrid</option>
+                      
+              </select>
+      <img src="./profile-images/arrow-down.svg" alt="" class="select-icon">
+    </div>
+
+   
+
+</div>
+
+  <div style=" display: flex; gap: 8px;">
+    <div class="form-group_education" style="width: 50%;">
+      <label class="form-label_experience education_label">تاريخ البدء </label>
+      <div class="edit_educationSelectOut_btn-con">
+        <button class="dateicon1"><img src="./profile-images/Icondate.svg" alt=""></button>
+      </div>
+      <input type="text" class="fullname-input" placeholder="النص المقترح">
+  </div>
+  <div class="form-group_education" style="width: 50%;">
+    <label class="form-label_experience education_label">تاريخ الإنتهاء </label>
+    <div class="edit_educationSelectOut_btn-con dateicon">
+      <butto class="dateicon2"><img src="./profile-images/Icondate.svg" alt=""></button>
+    </div>
+    <input type="text" class="fullname-input" placeholder="النص المقترح">
+    
+</div>
+  </div>
+  <div class="chek_con">
+    <input  type="checkbox" name="" id="">
+    <label >مازلت اعمل في الشركة </label>
+  </div>
+  <div class="editButtons">
+    <button type="submit" class="editButton1">حفظ</button>
+  <button class="editButton2">الغاء التعديلات</button>
+  </div>
+ 
+  
+          </div>
+      </div>
+      </div>
+      
+      <div class="edit_experience3 edit_profile_overlay" id="edit_experience3" >
+        <div class="edit_profile_model ">
+          <div class="edit_experince_content">
+            <div class="edit_profile-upcontaner">
+              <h3> إضافة الخبره </h3>
+             <button id="edit_experienceOut_btn3"><img src="./profile-images/x-mark.svg" alt=""></button>
+            </div>
+            <div class="form-group_education">
+              <label class="form-label_experience education_label">المسمى الوظيفي</label>
+              <div class="edit_educationSelectOut_btn-con">
+                <button class=" edit_educationOut_btn" id="edit_experienceSelectOut_btn"><img  src="./profile-images/x-mark.svg" alt=""></button>
+  
+              </div>
+  
+              <input type="text" class="fullname-input" placeholder="Senior Product Designer">
+
+          </div>
+          <div class="form-group_education">
+            <label class="form-label_experience education_label">نوع الدوام</label>
+            <div class="select-wrapper">
+              <select name="specialization" required>
+                <option value=""> Full-time</option>
+                              <option value="ui-designer">Part-time</option>
+                              <option value="Graphic-Design">Self-employed</option>
+                              <option value="front-end">Freelance</option>
+                              <option value="Back-End">Contract</option>
+                              <option value="AI"> Internship</option>
+                               <option value="Digital-Marketing"> Appernticeship</option>
+                      </select>
+              <img src="./profile-images/arrow-down.svg" alt="" class="select-icon">
+            </div>
+
+           
+
+        </div>
+       
+          
+      <div class="form-group_education">
+        <label class="form-label_experience education_label">اسم الشركة او المؤسسة</label>
+        <input type="text" class="fullname-input" placeholder="Aaseya">
+    </div>
+    <div class="form-group_education">
+      <label class="form-label_experience education_label">  الموقع الجغرافي</label>
+      <div class="select-wrapper">
+        <select name="specialization" required>
+          <option value="">Riyadh, Saudi Ararbia </option>
+                        <option value="ui-designer">Minia, Egypt </option>
+                        
+                </select>
+        <img src="./profile-images/arrow-down.svg" alt="" class="select-icon">
+      </div>
+
+     
+
+  </div>
+  <div class="form-group_education">
+    <label class="form-label_experience education_label">  طبيعة العمل </label>
+    <div class="select-wrapper">
+      <select name="specialization" required>
+        <option value="">On-site </option>
+                      <option value="ui-designer">Remote</option>
+                      <option value="Graphic-Design"> Hybrid</option>
+                      
+              </select>
+      <img src="./profile-images/arrow-down.svg" alt="" class="select-icon">
+    </div>
+
+   
+
+</div>
+
+  <div style=" display: flex; gap: 8px;">
+    <div class="form-group_education" style="width: 50%;">
+      <label class="form-label_experience education_label">تاريخ البدء </label>
+      <div class="edit_educationSelectOut_btn-con">
+        <button class="dateicon1"><img src="./profile-images/Icondate.svg" alt=""></button>
+      </div>
+      <input type="text" class="fullname-input" placeholder="النص المقترح">
+  </div>
+  <div class="form-group_education" style="width: 50%;">
+    <label class="form-label_experience education_label">تاريخ الإنتهاء </label>
+    <div class="edit_educationSelectOut_btn-con dateicon">
+      <butto class="dateicon2"><img src="./profile-images/Icondate.svg" alt=""></button>
+    </div>
+    <input type="text" class="fullname-input" placeholder="النص المقترح">
+    
+</div>
+  </div>
+  <div class="chek_con">
+    <input  type="checkbox" name="" id="">
+    <label >مازلت اعمل في الشركة </label>
+  </div>
+  <div class="editButtons">
+    <button type="submit" class="editButton1">حفظ</button>
+  <button class="editButton2">الغاء التعديلات</button>
+  </div>
+ 
+  
+          </div>
+      </div>
+      </div>
+          <!-- نهايه تعديل الخبره -->
+
+          <div class="my-data experience">
+            <div class="my-data-title">
+              <span>الشهادات :</span>
+              <div>
+                <button id="education_plus_btn"><img src="./profile-images/uil_plus.svg" alt="upload-icon" /></button> 
+                <button id="education_edit_btn"><img src="./profile-images/edit-2.svg" alt="edit-icon" /></button> 
+ 
+              </div>
+            </div>
+            <div class="education-desc">
+              <div class="desc Edesc google-data">
+                <div>
+                  <img src="./profile-images/googel-imge.svg" alt="google-img" />
+                </div>
+                <div>
+                  <h3>Build Dynamic User Interfaces(UI) for Websites</h3>
+                  <p class="desc-p">Google</p>
+                  <p>Issued Aug 2024 . Expired Sep 2024 . 2mos</p>
+                </div>
+              </div>
+            </div>
+            <div class="education-desc">
+              <div class="desc Edesc google-data">
+                <div>
+                  <img src="./profile-images/googel-imge.svg" alt="google-img" />
+                </div>
+                <div>
+                  <h3>Build Dynamic User Interfaces(UI) for Websites</h3>
+                  <p class="desc-p">Google</p>
+                  <p>Issued Aug 2024 . Expired Sep 2024 . 2mos</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="show-more">عرض المزيد +3</button>
+          </div>
+        </aside>
+        <!-- ££££ -->
+        <div class="edit_education edit_profile_overlay" id="edit_education" >
+          <div class="edit_profile_model edit_education_model">
+           
+            <div class="edit_education_content">
+              <div class="edit_profile-upcontaner">
+                <h3> الشهادات </h3>
+               <button id="edit_educationOut_btn"><img src="./profile-images/arrow-small-left.svg" alt=""></button>
+              </div>
+              <div class="edit_education-desc">
+                <!-- <div class="google-data_contaner"> -->
+                  <div class="edit-icon_con">
+                    <button>  <img src="./profile-images/bars-4.svg" alt=""></button> 
+              <button id="edit_education_btn2"><img src=".//profile-images/edit-2.svg" alt=""></button>
+                    </div>
+                  <div class="desc_edit google-data">
+                    <div>
+                      <h3>Build Dynamic User Interfaces(UI) for Websites</h3>
+                      <p class="desc-p">Google</p>
+                      <p>Issued Aug 2024 . Expired Sep 2024 . 2mos</p>
+                    </div>
+                    <div>
+                      <img src="./profile-images/google.png" alt="google-img" />
+                    </div>
+                  </div>
+                <!-- </div> -->
+              </div>
+              <div class="edit_education-desc">
+                <!-- <div class="google-data_contaner"> -->
+                  <div class="edit-icon_con">
+                    <button>  <img src="./profile-images/bars-4.svg" alt=""></button> 
+              <button id="profile_edit_btn"><img src=".//profile-images/edit-2.svg" alt=""></button>
+                    </div>
+                  <div class="desc_edit google-data">
+                    <div>
+                      <h3>Build Dynamic User Interfaces(UI) for Websites</h3>
+                      <p class="desc-p">Google</p>
+                      <p>Issued Aug 2024 . Expired Sep 2024 . 2mos</p>
+                    </div>
+                    <div>
+                      <img src="./profile-images/google.png" alt="google-img" />
+                    </div>
+                  </div>
+                <!-- </div> -->
+               
+              </div>
+              <div class="edit_education-desc">
+                <!-- <div class="google-data_contaner"> -->
+                  <div class="edit-icon_con">
+                    <button><img src="./profile-images/bars-4.svg" alt=""></button> 
+              <button id="profile_edit_btn"><img src=".//profile-images/edit-2.svg" alt=""></button>
+                    </div>
+                  <div class="desc_edit google-data">
+                    <div>
+                      <h3>Build Dynamic User Interfaces(UI) for Websites</h3>
+                      <p class="desc-p p">Google</p>
+                      <p>Issued Aug 2024 . Expired Sep 2024 . 2mos</p>
+                    </div>
+                    <div>
+                      <img src="./profile-images/google.png" alt="google-img" />
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+  
+            </div>
+        </div>
+      </div>
+      <!-- £££££££££ -->
+
+      <div class="edit_education2 edit_profile_overlay" id="edit_education2" >
+        <div class="edit_profile_model ">
+          <div class="edit_education_content">
+            <div class="edit_profile-upcontaner">
+              <h3> تعديل الشهادة </h3>
+             <button id="edit_educationOut_btn2"><img src="./profile-images/x-mark.svg" alt=""></button>
+            </div>
+            <div class="form-group_education">
+              <label class="form-label education_label">اسم الشهادة </label>
+              <div class="edit_educationSelectOut_btn-con">
+                <button class=" edit_educationOut_btn" id="edit_educationSelectOut_btn"><img  src="./profile-images/x-mark.svg" alt=""></button>
+  
+              </div>
+  
+              <input type="text" class="fullname-input" placeholder="AI in UX/UI Design">
+
+          </div>
+          <div class="form-group_education">
+            <label class="form-label education_label">الجهة المانحة للشهادة </label>
+            <div  class="edit_educationSelectOut_btn-con">
+              <button class=" edit_educationOut_btn" id="edit_educationSelectOut_btn"><img  src="./profile-images/x-mark.svg" alt=""></button>
+
+            </div>
+
+            <input type="text" class="fullname-input" placeholder="The Interaction Design Foundation ">
+
+        </div>
+        <div style=" display: flex; gap: 8px;">
+          <div class="form-group_education" style="width: 50%;">
+            <label class="form-label education_label">تاريخ الإصدار </label>
+            <div class="edit_educationSelectOut_btn-con">
+              <button class="dateicon1"><img src="./profile-images/Icondate.svg" alt=""></button>
+            </div>
+            <input type="text" class="fullname-input" placeholder="النص المقترح">
+        </div>
+        <div class="form-group_education" style="width: 50%;">
+          <label class="form-label education_label">تاريخ الإنتهاء </label>
+          <div class="edit_educationSelectOut_btn-con dateicon">
+            <butto class="dateicon2"><img src="./profile-images/Icondate.svg" alt=""></button>
+          </div>
+          <input type="text" class="fullname-input" placeholder="النص المقترح">
+          
+      </div>
+        </div>
+          
+      <div class="form-group_education">
+        <label class="form-label education_label">رقم الشهادة </label>
+        <input type="text" class="fullname-input" placeholder="Credential ID 10485">
+    </div>
+    <div class="form-group_education">
+      <label class="form-label education_label"> رابط الشهادة  </label>
+      <input type="text" class="fullname-input" placeholder="https://app.uxcel.com/certificates/F6T8H05JM9JI">
+  </div>
+  <div class="editButtons">
+    <button type="submit" class="editButton1">حفظ</button>
+  <button class="editButton2">الغاء التعديلات</button>
+  </div>
+  
+          </div>
+      </div>
+      </div>
+      <div class="edit_education2 edit_profile_overlay" id="edit_education3"  >
+        <div class="edit_profile_model">
+          <div class="edit_education_content">
+            <div class="edit_profile-upcontaner">
+              <h3> إضافة الشهادة </h3>
+             <button id="edit_educationOut_btn3"><img src="./profile-images/x-mark.svg" alt=""></button>
+            </div>
+            <div class="form-group_education">
+              <label class="form-label education_label">اسم الشهادة </label>
+              <div class="edit_educationSelectOut_btn-con">
+                <button class=" edit_educationOut_btn" id="edit_educationSelectOut_btn"><img  src="./profile-images/x-mark.svg" alt=""></button>
+  
+              </div>
+  
+              <input type="text" class="fullname-input" placeholder="AI in UX/UI Design">
+
+          </div>
+          <div class="form-group_education">
+            <label class="form-label education_label">الجهة المانحة للشهادة </label>
+            <div  class="edit_educationSelectOut_btn-con">
+              <button class=" edit_educationOut_btn" id="edit_educationSelectOut_btn"><img  src="./profile-images/x-mark.svg" alt=""></button>
+
+            </div>
+
+            <input type="text" class="fullname-input" placeholder="The Interaction Design Foundation ">
+
+        </div>
+        <div style=" display: flex; gap: 8px;">
+          <div class="form-group_education" style="width: 50%;">
+            <label class="form-label education_label">تاريخ الإصدار </label>
+            <div class="edit_educationSelectOut_btn-con">
+              <button class="dateicon1"><img src="./profile-images/Icondate.svg" alt=""></button>
+            </div>
+            <input type="text" class="fullname-input" placeholder="النص المقترح">
+        </div>
+        <div class="form-group_education" style="width: 50%;">
+          <label class="form-label education_label">تاريخ الإنتهاء </label>
+          <div class="edit_educationSelectOut_btn-con dateicon">
+            <butto class="dateicon2"><img src="./profile-images/Icondate.svg" alt=""></button>
+          </div>
+          <input type="text" class="fullname-input" placeholder="النص المقترح">
+          
+      </div>
+        </div>
+          
+      <div class="form-group_education">
+        <label class="form-label education_label">رقم الشهادة </label>
+        <input type="text" class="fullname-input" placeholder="Credential ID 10485">
+    </div>
+    <div class="form-group_education">
+      <label class="form-label education_label"> رابط الشهادة  </label>
+      <input type="text" class="fullname-input" placeholder="https://app.uxcel.com/certificates/F6T8H05JM9JI">
+  </div>
+  <div class="editButtons">
+    <button type="submit" class="editButton1">حفظ</button>
+  <button class="editButton2">الغاء التعديلات</button>
+  </div>
+  
+          </div>
+      </div>
+      </div>
+
+        <div class="left-section">
+          <!-- <div class="video">
+            <h3>فيديو تعريفي</h3>
+            <video src="" controls autoplay muted loop></video>
+          </div> -->
+<!-- 
+          <div class="ratting-mentor" dir="ltr">
+            <div class="reviews">
+              <h2>
+                4.5 <img src="./profile-images/Star.png" alt="add-icon" />
+              </h2>
+              <button>653 reviews</button>
+            </div>
+
+            <div class="ratting-reviews">
+              <ol id="rate-list" reversed dir="ltr">
+                <li data-rating="11.7">
+                  <span>5</span
+                  ><img src="./profile-images/Star.png" alt="star" />
+                  <div></div>
+                </li>
+                <li data-rating="9.36">
+                  <span>4</span
+                  ><img src="./profile-images/Star.png" alt="star" />
+                  <div></div>
+                </li>
+                <li data-rating="7.02">
+                  <span>3</span
+                  ><img src="./profile-images/Star.png" alt="star" />
+                  <div></div>
+                </li>
+                <li data-rating="4.68">
+                  <span>2</span
+                  ><img src="./profile-images/Star.png" alt="star" />
+                  <div></div>
+                </li>
+                <li data-rating="2.34">
+                  <span>1</span>
+                  <img src="./profile-images/Star.png" alt="star" />
+                  <div></div>
+                </li>
+              </ol>
+            </div>
+          </div> -->
+
+          <!-- <div class="calender-section">
+            <div class="calender">
+              <div class="my-date-calender">
+                <div class="my-calender-title">
+                  <span>الايام المتاحه :</span
+                  ><img src="./profile-images/calender.svg" alt="calender" />
+                </div> -->
+
+                <!-- <div class="swiper-calender">
+                   Additional required wrapper 
+                  <div class="swiper-wrapper">
+                     Slides 
+                    <div class="swiper-slide calender-slide">
+                      <h4>Sat</h4>
+                      <p>25-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Sat</h4>
+                      <p>25-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Sat</h4>
+                      <p>25-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Sat</h4>
+                      <p>25-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Sun</h4>
+                      <p>26-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Mon</h4>
+                      <p>27-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Tue</h4>
+                      <p>28-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Wed</h4>
+                      <p>29-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Thu</h4>
+                      <p>30-Jan</p>
+                    </div>
+                    <div class="swiper-slide calender-slide">
+                      <h4>Fri</h4>
+                      <p>31-Jan</p>
+                    </div>
+                  </div>
+
+                   Navigation buttons 
+                  <div class="swiper-btn-prev">&lt;</div>
+                  <div class="swiper-btn-next">&gt;</div>
+                </div>
+
+                <div class="date">
+                  <div class="my-data-title calender-span">
+                    الفترات الزمنيه :
+                  </div>
+                  <div class="dates">
+                    <p>08:30-9:00 pm</p>
+                    <p>08:30-9:00 pm</p>
+                    <p>08:30-9:00 pm</p>
+                    <p>08:30-9:00 pm</p>
+                    <p>08:30-9:00 pm</p>
+                    <p>08:30-9:00 pm</p>
+                  </div>
+                </div>
+                <button class="btn-book">احجز الان</button>
+              </div>
+            </div>
+          </div>ززز -->
+        </div>
+      </section>
+      <section class="rating-section container">
+        <div class="title">
+          <h3>تقييمات المستخدمين</h3>
+          <div class="arrow-group">
+            <img src="./profile-images/chevron-right.svg" alt="right" />
+            <img src="./profile-images/chevron-left.svg" alt="left" />
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper-review">
+            <div class="swiper-slide">
+              <div class="clients-review">
+                <div class="images">
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                </div>
+                <p>
+                  ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                  توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
+                  النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
+                  التى يولدها التطبيق.
+                </p>
+                <div class="review-swiper-peopel">
+                  <img src="./profile-images/person2.png" alt="" />
+                  <h4>نهال سراج</h4>
+                  <p>ui/ux Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="clients-review">
+                <div class="images">
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                </div>
+                <p>
+                  ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                  توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
+                  النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
+                  التى يولدها التطبيق.
+                </p>
+                <div class="review-swiper-peopel">
+                  <img src="./profile-images/person2.png" alt="" />
+                  <h4>نهال سراج</h4>
+                  <p>ui/ux Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="clients-review">
+                <div class="images">
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                </div>
+                <p>
+                  ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                  توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
+                  النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
+                  التى يولدها التطبيق.
+                </p>
+
+                <div class="review-swiper-peopel">
+                  <img src="./profile-images/person2.png" alt="" />
+                  <h4>نهال سراج</h4>
+                  <p>ui/ux Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="clients-review">
+                <div class="images">
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                </div>
+                <p>
+                  ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                  توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
+                  النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
+                  التى يولدها التطبيق.
+                </p>
+                <div class="review-swiper-peopel">
+                  <img src="./profile-images/person2.png" alt="" />
+                  <h4>نهال سراج</h4>
+                  <p>ui/ux Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="clients-review">
+                <div class="images">
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                  <img src="./profile-images/baseline-star.png" alt="" />
+                </div>
+                <p>
+                  ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                  توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
+                  النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
+                  التى يولدها التطبيق.
+                </p>
+                <div class="review-swiper-peopel">
+                  <img src="./profile-images/person2.png" alt="" />
+                  <h4>نهال سراج</h4>
+                  <p>ui/ux Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="suggested-mentors">
+        <div class="title">
+          <h3>موجهين مقترحين</h3>
+          <div class="arrow">
+            <div>
+              <img
+                src="./profile-images/chevron-right.svg"
+                alt="right"
+                class="right-mentor"
+              />
+            </div>
+            <div>
+              <img
+                src="./profile-images/chevron-left.svg"
+                alt="left"
+                class="left-mentor"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./assets/images/Frame 2306.png" alt="Frame" />
+            <h3>محمد مصطفى</h3>
+            <span>التسويق </span>
+            <div class="stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+            </div>
+            <p>
+              ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+              النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+              من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+            </p>
+            <span
+              >احجز جلسة
+              <div><img src="./assets/images/Vector (2).svg" alt="vector" /></div
+            ></span>
+            <div class="colored-card"></div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/Frame 2306.png" alt="Frame" />
+  
+            <h3>محمد مصطفى</h3>
+            <span>التسويق </span>
+            <div class="stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+            </div>
+            <p>
+              ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+              النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+              من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+            </p>
+            <span
+              >احجز جلسة
+              <div><img src="./assets/images/Vector (2).svg" alt="vector" /></div
+            ></span>
+            <div class="colored-card"></div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/Frame 2306.png" alt="Frame" />
+            <h3>محمد مصطفى</h3>
+            <span>التسويق </span>
+            <div class="stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+            </div>
+            <p>
+              ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+              النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+              من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+            </p>
+            <span
+              >احجز جلسة
+              <div><img src="./assets/images/Vector (2).svg" alt="vector" /></div
+            ></span>
+            <div class="colored-card"></div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/Frame 2306.png" alt="Frame" />
+  
+            <h3>محمد مصطفى</h3>
+            <span>التسويق </span>
+            <div class="stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+            </div>
+            <p>
+              ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+              النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+              من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+            </p>
+            <span
+              >احجز جلسة
+              <div><img src="./assets/images/Vector (2).svg" alt="vector" /></div
+            ></span>
+            <div class="colored-card"></div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/Frame 2306.png" alt="Frame" />
+            <h3>محمد مصطفى</h3>
+            <span>التسويق </span>
+            <div class="stars">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <path
+                  d="M8.34373 11.5171L5.57706 13.1838C5.45484 13.2616 5.32706 13.2949 5.19373 13.2838C5.06039 13.2727 4.94373 13.2282 4.84373 13.1505C4.74373 13.0727 4.66595 12.9756 4.61039 12.8591C4.55484 12.7427 4.54373 12.612 4.57706 12.4671L5.31039 9.31712L2.86039 7.20046C2.74928 7.10046 2.67995 6.98646 2.65239 6.85846C2.62484 6.73046 2.63306 6.60557 2.67706 6.48379C2.72106 6.36201 2.78773 6.26201 2.87706 6.18379C2.96639 6.10557 3.08861 6.05557 3.24373 6.03379L6.47706 5.75046L7.72706 2.78379C7.78261 2.65046 7.86884 2.55046 7.98573 2.48379C8.10261 2.41712 8.22195 2.38379 8.34373 2.38379C8.4655 2.38379 8.58484 2.41712 8.70173 2.48379C8.81861 2.55046 8.90484 2.65046 8.96039 2.78379L10.2104 5.75046L13.4437 6.03379C13.5993 6.05601 13.7215 6.10601 13.8104 6.18379C13.8993 6.26157 13.9659 6.36157 14.0104 6.48379C14.0548 6.60601 14.0633 6.73112 14.0357 6.85912C14.0082 6.98712 13.9386 7.1009 13.8271 7.20046L11.3771 9.31712L12.1104 12.4671C12.1437 12.6116 12.1326 12.7422 12.0771 12.8591C12.0215 12.976 11.9437 13.0731 11.8437 13.1505C11.7437 13.2278 11.6271 13.2722 11.4937 13.2838C11.3604 13.2953 11.2326 13.262 11.1104 13.1838L8.34373 11.5171Z"
+                  fill="#D0D5DD"
+                />
+              </svg>
+            </div>
+            <p>
+              ذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+              النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+              من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+            </p>
+            <span
+              >احجز جلسة
+              <div><img src="./assets/images/Vector (2).svg" alt="vector" /></div
+            ></span>
+            <div class="colored-card"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/profile.js"></script>
+  </body>
+</html>
